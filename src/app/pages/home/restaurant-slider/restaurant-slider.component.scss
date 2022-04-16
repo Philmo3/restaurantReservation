@@ -2,6 +2,13 @@
   margin: 20px 0;
 
   &__slider{
-    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
 }

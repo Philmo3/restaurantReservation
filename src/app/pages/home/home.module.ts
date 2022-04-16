@@ -8,9 +8,16 @@ import { HomePageRoutingModule } from './home-routing.module';
 import { RestaurantSliderComponent } from './restaurant-slider/restaurant-slider.component';
 // eslint-disable-next-line max-len
 import { RestaurantSliderDerscriptionComponent } from './restaurant-slider/restaurant-slider-derscription/restaurant-slider-derscription.component';
+import { SliderModule } from 'src/app/components/slider/slider.module';
 
 @NgModule({
-  imports: [CommonModule, FormsModule, IonicModule, HomePageRoutingModule],
+  imports: [
+    CommonModule,
+    FormsModule,
+    IonicModule,
+    HomePageRoutingModule,
+    SliderModule,
+  ],
   declarations: [
     HomePage,
     RestaurantSliderComponent,
