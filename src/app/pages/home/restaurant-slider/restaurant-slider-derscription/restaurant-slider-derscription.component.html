@@ -3,9 +3,9 @@
   <div class="Restaurant__info noPointer">
     <h6 class="Restaurant__name">{{ restaurant.name }}</h6>
     <div class="Restaurant__details">
-      <p>{{ restaurant.availablePlace }}</p>
-      <p>{{ restaurant.distance }}</p>
-      <p>{{ restaurant.rating }}</p>
+      <p>{{ restaurant.availablePlace }} places &#x2758; </p>
+      <p>{{ restaurant.distance }} km &#x2758; </p>
+      <p> <app-star-rating [rating]="restaurant.rating" ></app-star-rating> </p>
     </div>
   </div>
 </div>

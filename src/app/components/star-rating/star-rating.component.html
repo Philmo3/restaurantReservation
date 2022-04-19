@@ -1,0 +1,13 @@
+<div class="StarRating">
+
+  <ng-container *ngFor="let number of rating | numberToArray ">
+
+    <ion-icon name="star" *ngIf="number >= 1; else halfStar"></ion-icon>
+
+    <ng-template #halfStar>
+      <ion-icon name="star-half"></ion-icon>
+    </ng-template>
+
+  </ng-container>
+
+</div>

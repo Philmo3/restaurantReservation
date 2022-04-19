@@ -1,6 +1,9 @@
 <div class="RestaurantSlider">
 
-  <h4>{{ title }}</h4>
+  <div class="RestaurantSlider__title">
+    <h4  >{{ title }}</h4>
+    <ion-icon size="large" name="arrow-forward-circle-outline"></ion-icon>
+  </div>
 
   <app-slider>
     <ng-container *ngFor="let restaurant of restaurants">

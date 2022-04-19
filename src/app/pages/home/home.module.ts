@@ -10,6 +10,7 @@ import { RestaurantSliderComponent } from './restaurant-slider/restaurant-slider
 import { RestaurantSliderDerscriptionComponent } from './restaurant-slider/restaurant-slider-derscription/restaurant-slider-derscription.component';
 import { SliderModule } from 'src/app/components/slider/slider.module';
 import { CallToActionSliderModule } from 'src/app/components/call-to-action-slider/call-to-action-slider.module';
+import { StarRatingModule } from 'src/app/components/star-rating/star-rating.module';
 
 @NgModule({
   imports: [
@@ -18,7 +19,8 @@ import { CallToActionSliderModule } from 'src/app/components/call-to-action-slid
     IonicModule,
     HomePageRoutingModule,
     SliderModule,
-    CallToActionSliderModule
+    CallToActionSliderModule,
+    StarRatingModule,
   ],
   declarations: [
     HomePage,
