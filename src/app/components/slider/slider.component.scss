@@ -1,7 +1,7 @@
 .Slider {
   display: flex;
   flex-wrap: nowrap;
-  overflow-x: auto;
+  overflow-x: scroll;
 
   -webkit-overflow-scrolling: touch;
   &::-webkit-scrollbar {

@@ -1,0 +1,19 @@
+@import '../../../theme/variables.scss';
+
+.CallToAction{
+  background-color: $primary;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 140px;
+  padding: 10px;
+  margin-right: 20px;
+  justify-content: space-around;
+  color: white;
+
+  &__nameContainer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+}

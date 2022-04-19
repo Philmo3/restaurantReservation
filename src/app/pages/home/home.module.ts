@@ -9,6 +9,7 @@ import { RestaurantSliderComponent } from './restaurant-slider/restaurant-slider
 // eslint-disable-next-line max-len
 import { RestaurantSliderDerscriptionComponent } from './restaurant-slider/restaurant-slider-derscription/restaurant-slider-derscription.component';
 import { SliderModule } from 'src/app/components/slider/slider.module';
+import { CallToActionSliderModule } from 'src/app/components/call-to-action-slider/call-to-action-slider.module';
 
 @NgModule({
   imports: [
@@ -17,6 +18,7 @@ import { SliderModule } from 'src/app/components/slider/slider.module';
     IonicModule,
     HomePageRoutingModule,
     SliderModule,
+    CallToActionSliderModule
   ],
   declarations: [
     HomePage,
