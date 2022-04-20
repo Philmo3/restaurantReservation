@@ -8,3 +8,15 @@
           user-select: none; /* Non-prefixed version, currently
                                 supported by Chrome, Edge, Opera and Firefox */
 }
+.ripple:focus{
+  animation: rippleEffect 0.2s linear;
+}
+
+@keyframes rippleEffect {
+  0% {
+    box-shadow:  0 0 1em rgb(255, 255, 255)
+  }
+  100% {
+    box-shadow:  0 10px 2em rgb(172, 172, 172)
+  }
+}

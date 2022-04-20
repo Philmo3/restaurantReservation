@@ -4,9 +4,9 @@
 
 /** App variable **/
 
-$primary: #001842;
-$secondary: #d400ff;
-$tertiary: #000d99;
+$primary: rgb(165, 165, 165);
+$secondary: #ebebeb;
+$tertiary: #3c3c3d;
 
 /** Ionic CSS Variables **/
 :root {
@@ -66,5 +66,6 @@ $tertiary: #000d99;
 	--ion-color-light-shade: #d7d8da;
 	--ion-color-light-tint: #f5f6f9;
 
-
+  --ion-background-color: #f5f6f9;
+  --border-radius: 0 !important;
 }

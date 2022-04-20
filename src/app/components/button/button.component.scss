@@ -1,0 +1,17 @@
+@import '../../../theme/variables.scss';
+
+:host{
+  button{
+    background-color: $secondary;
+    color: $tertiary;
+  }
+}
+
+button{
+  position: relative;
+  padding: 10px;
+  border-radius: 0px !important;
+}
+
+
+
