@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 .noPointer {
   pointer-events: none;
   -webkit-touch-callout: none; /* iOS Safari */
@@ -9,14 +11,14 @@
                                 supported by Chrome, Edge, Opera and Firefox */
 }
 .ripple:focus{
-  animation: rippleEffect 0.2s linear;
+  animation: rippleEffect 0.4s linear;
 }
 
 @keyframes rippleEffect {
   0% {
-    box-shadow:  0 0 1em rgb(255, 255, 255)
+    box-shadow: inset 0 0 1px $primary
   }
   100% {
-    box-shadow:  0 10px 2em rgb(172, 172, 172)
+    box-shadow: inset 0 0px 2em rgba($primary, $alpha: 0.2)
   }
 }

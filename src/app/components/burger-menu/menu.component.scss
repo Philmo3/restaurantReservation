@@ -1,0 +1,61 @@
+@import '../../../theme/variables.scss';
+
+.Menu{
+  height: 30px;
+  width: 30px;
+  &__burger{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    &__line{
+      height: 4px;
+      width: 100%;
+      background-color: white;
+
+    }
+
+    &__active{
+
+      .Menu__burger__line{
+
+        animation: active 1s linear forwards
+
+      }
+
+    }
+
+    &__desactive{
+
+      .Menu__burger__line{
+
+        animation: deactive 1s linear forwards
+
+      }
+    }
+  }
+}
+
+@keyframes active {
+  0% {
+    transform: rotate(0deg);
+    width: 100%;
+  }
+  100% {
+    transform: rotate(180deg);
+    width: 100%;
+  }
+
+}
+
+@keyframes deactive {
+  0% {
+    transform: rotate(180deg);
+    width: 100%;
+  }
+  100% {
+    transform: rotate(0deg);
+    width: 100%;
+  }
+
+}

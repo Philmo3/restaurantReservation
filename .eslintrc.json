@@ -32,12 +32,11 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "app",
             "style": "camelCase"
           }
         ],
         "quotes":"off",
-        "@typescript-eslint/quotes": ["off"]
+        "@typescript-eslint/quotes": ["off"],
       }
     },
     {
