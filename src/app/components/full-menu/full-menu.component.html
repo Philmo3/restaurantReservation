@@ -1,1 +1,6 @@
-<div></div>
+<div class="Menu" [@openClose]="isMenuOpen ? 'open' : 'closed'">
+  <div [@fade]="isMenuOpen ? 'visible' : 'faded'">
+    <app-menu-link></app-menu-link>
+  </div>
+
+</div>

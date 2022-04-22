@@ -6,7 +6,7 @@ import { Subject } from 'rxjs';
 })
 export class MenuService {
   private menuIsOpen = false;
-  private menuIsOpenSubject = new Subject();
+  private menuIsOpenSubject = new Subject<boolean>();
 
   menuIsOpen$ = this.menuIsOpenSubject.asObservable();
 
