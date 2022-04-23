@@ -3,4 +3,9 @@
   height: calc(100% - 70px);
   z-index: 100;
   position: absolute;
+
+  &__open{
+    padding-left: 20px;
+    padding-top: 10px;
+  }
 }

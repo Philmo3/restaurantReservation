@@ -1,6 +1,6 @@
 <div class="Menu" [@openClose]="isMenuOpen ? 'open' : 'closed'">
-  <div [@fade]="isMenuOpen ? 'visible' : 'faded'">
-    <app-menu-link></app-menu-link>
+  <div class="Menu__open">
+    <app-menu-link label="Home" [active]="true"></app-menu-link>
+    <app-menu-link label="Reservation" [route]="['reservation']" ></app-menu-link>
   </div>
-
 </div>

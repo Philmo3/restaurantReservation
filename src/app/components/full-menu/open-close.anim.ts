@@ -10,7 +10,7 @@ export const openClose = trigger('openClose', [
   state(
     'open',
     style({
-      left: 0,
+      left: '20%',
       backgroundColor: 'white',
     })
   ),
@@ -18,6 +18,7 @@ export const openClose = trigger('openClose', [
     'closed',
     style({
       left: '100%',
+      backgroundColor: 'white'
     })
   ),
   transition('open => closed', [animate('1s')]),
